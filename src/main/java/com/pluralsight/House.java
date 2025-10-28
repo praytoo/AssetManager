@@ -1,10 +1,10 @@
 package com.pluralsight;
 
 public class House extends Asset{
-    String address;
-    int condition; // (1 -excellent, 2 -good, 3 -fair, 4 -poor)
-    int squareFoot;
-    int lotSize;
+    private String address;
+    private int condition; // (1 -excellent, 2 -good, 3 -fair, 4 -poor)
+    private int squareFoot;
+    private int lotSize;
 
     public String getAddress() {
         return address;

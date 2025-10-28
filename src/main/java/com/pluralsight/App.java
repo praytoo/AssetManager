@@ -46,6 +46,18 @@ public class App {
         if (weekendvehcile1 instanceof Vehicle){
             System.out.println(((Vehicle) weekendvehcile1).getMakeModel());
         }
-
+        /*ArrayList<Asset> myAssets = new ArrayList<>();
+        myAssets.add(new House("123 Malibu Rd", 1, 5000, 500));
+        myAssets.add(new Vehicle("Rolls-Royce: Cullinan", 2025, 200));
+        String message = "";
+        for (int i = 0; i < myAssets.size(); i++) {
+            if (myAssets.get(i) instanceof House) {
+                House house = (House) myAssets.get(i);
+                System.out.println(message = "House at: " + house.getAddress());
+            } else if (myAssets.get(i) instanceof Vehicle) {
+                Vehicle vehicle = (Vehicle) myAssets.get(i);
+                System.out.println(message = "Vehicle: " +
+                        vehicle.getYear() + " " + vehicle.getMakeModel());
+            }
+        */ }
     }
-}

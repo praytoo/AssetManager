@@ -1,9 +1,9 @@
 package com.pluralsight;
 
 public class Vehicle extends Asset{
-    String makeModel;
-    int year;
-    int odometer;
+    private String makeModel;
+    private int year;
+    private int odometer;
 
     public String getMakeModel() {
         return makeModel;
