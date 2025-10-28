@@ -45,7 +45,7 @@ public class Vehicle extends Asset{
             return getOriginalCost() - (getOriginalCost() * .08);
         }else if (year <= 2015){
             return getOriginalCost() - 1000.00;
-        }else if (makeModel == "Honda" || makeModel == "Toyota" && odometer > 100000){
+        }else if (makeModel.equals("Honda") || makeModel.equals("Toyota") && odometer > 100000){
             getOriginalCost();
         }else if (odometer > 100000){
             return getOriginalCost() - (getOriginalCost() * .25);
